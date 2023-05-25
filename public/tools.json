@@ -1,0 +1,22 @@
+[
+    {
+      "_id": "646bb66c7adfad3214e89553",
+      "name": "Git",
+      "img": "https://i.ibb.co/kyzV5cW/git-removebg-preview.png"
+    },
+    {
+      "_id": "646bb66ca8eb47ff76f65a6c",
+      "name": "Firebase",
+      "img": "https://i.ibb.co/bHfNRh0/fire-removebg-preview.png"
+    },
+    {
+      "_id": "646bb66c40b08431f8c551d5",
+      "name": "Netlify",
+      "img": "https://i.ibb.co/rtBD4Fh/net-removebg-preview.png"
+    },
+    {
+      "_id": "646bb66c5292cfcff0b89f6e",
+      "name": "Vercel",
+      "img": "https://i.ibb.co/QmvZxqs/vercel-brand-icon-211876.png"
+    }
+  ]

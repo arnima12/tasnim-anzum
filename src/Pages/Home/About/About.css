@@ -1,0 +1,23 @@
+.about-me-container {
+  text-align: center;
+}
+
+.horizontal-line {
+  border: 0;
+  border-top: 4px solid #15181b;
+  margin: 20px 0;
+}
+
+.left-line {
+  margin-right: auto;
+  width: 50%;
+}
+
+.right-line {
+  margin-left: auto;
+  width: 50%;
+}
+
+.about-me-content {
+  padding: 20px;
+}
