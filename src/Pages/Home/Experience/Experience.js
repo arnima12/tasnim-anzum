@@ -11,7 +11,15 @@ const Experience = () => {
             "year": "December 2022 - January 2023",
             "position": "Web Developer",
             "description": "Designed and developed the home page of a digital agency website."
+        },
+        {
+            "_id": "646a759b91f2410596e9c024",
+            "name": "Sheba Web Technology LLC",
+            "year": "June 2023 - August 2023",
+            "position": "Intern Web Developer",
+            "description": "Designed and developed a job searching and an academi website."
         }
+
     ]
     return (
         <div className="container mx-auto px-4 sm:px-5 md:px-10 mt-16" id="experience">
