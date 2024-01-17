@@ -18,7 +18,7 @@ const Contact = () => {
         <form action="https://formspree.io/f/xknaagdn" method="POST" onSubmit={handleSubmit}>
           <div className="flex flex-col lg:flex-row gap-24 text-xl">
             <div className="flex flex-col gap-4">
-              <h1 className="text-4xl font-bold text-slate-800 mb-8 mt-16">Contact Us </h1>
+              <h1 className="text-4xl font-bold text-slate-800 mb-8 mt-16">Contact Me </h1>
               <div className="flex justify-center lg:justify-start">
                 <AiOutlineMail className="text-3xl text-slate-800" />
               </div>
