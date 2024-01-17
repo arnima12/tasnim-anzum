@@ -17,8 +17,8 @@ const About = () => {
           </div>
 
           <div className="w-3/4">
-            <h1 className="text-2xl lg:text-4xl font-bold lg:leading-[4rem]">Passionate Fresher in Frontend Development and User-Centric Design</h1>
-            <p className="pt-6 lg:text-2xl text-white lg:leading-[3rem]">I'm a passionate frontend developer with a strong focus on creating engaging and user-friendly web experiences. I have a deep appreciation for the intersection of design and technology, and I love turning ideas into visually stunning and functional websites.</p>
+            <h1 className="text-2xl lg:text-4xl font-bold lg:leading-[4rem]">Passionate Fresher in Software Development and User-Centric Design</h1>
+            <p className="pt-6 lg:text-2xl text-white lg:leading-[3rem]">I'm a passionate software developer with a strong focus on creating engaging and user-friendly web experiences. I have a deep appreciation for the intersection of design and technology, and I love turning ideas into visually stunning and functional websites.</p>
             <p className="pt-4 lg:text-2xl text-white lg:leading-[3rem]">I am a creative problem solver who is constantly seeking opportunities to learn and grow. I enjoy keeping up with industry blogs, attending conferences, and participating in online communities to expand my knowledge and stay inspired.</p>
             <p className="py-4 lg:text-2xl text-white lg:leading-[3rem]">I believe in the power of collaboration and effective communication.</p>
           </div>

@@ -6,18 +6,18 @@ AOS.init();
 const Experience = () => {
     const experience = [
         {
-            "_id": "646a759b91f2410596e9c023",
-            "name": "INVIXO",
-            "year": "December 2022 - January 2023",
-            "position": "Web Developer",
-            "description": "Designed and developed the home page of a digital agency website."
-        },
-        {
             "_id": "646a759b91f2410596e9c024",
             "name": "Sheba Web Technology LLC",
             "year": "June 2023 - August 2023",
             "position": "Intern Web Developer",
             "description": "Designed and developed a job searching and an academic website."
+        },
+        {
+            "_id": "646a759b91f2410596e9c023",
+            "name": "INVIXO",
+            "year": "December 2022 - January 2023",
+            "position": "Web Developer",
+            "description": "Designed and developed the home page of a digital agency website."
         }
 
     ]
