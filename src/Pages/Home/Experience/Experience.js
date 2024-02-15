@@ -8,7 +8,7 @@ const Experience = () => {
         {
             "_id": "646a759b91f2410596e9c024",
             "name": "Sheba Web Technology LLC",
-            "year": "June 2023 - August 2023",
+            "year": "June 2023 - July 2023",
             "position": "Intern Web Developer",
             "description": "Designed and developed a job searching and an academic website."
         },
