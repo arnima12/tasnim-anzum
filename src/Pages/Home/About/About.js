@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="container mx-auto px-4 sm:px-5 md:px-10 mt-16" id="about">
       <div className="hero min-h-screen " data-aos="fade-up-right">
-        <div className="hero-content flex-col lg:flex-row  text-slate-800 gap-16">
+        <div className="hero-content flex-col lg:flex-row  text-teal-600 gap-16">
           <div className="about-me-container lg:w-1/4">
             <div className="horizontal-line left-line hidden lg:block"></div>
             <div className="about-me-content">

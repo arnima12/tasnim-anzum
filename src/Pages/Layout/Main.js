@@ -11,12 +11,12 @@ const Main = () => {
     return (
         <div>
             <Navbar />
-           <Intro/>
-           <About/>
-           <Skills/>
-           <Experience/>
-           <Projects/>
-           <Contact/>
+            <Intro />
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Contact />
             <Footer />
         </div>
     );

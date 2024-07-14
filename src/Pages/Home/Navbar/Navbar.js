@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end px-4">
-                <Link to="https://mega.nz/file/MG9xzBSI#FM6QOWPr_FPIKHyp8HMF8zzT1P1s-TaAg6xuvLvXQlU" download="Tasnim_Anzum.pdf">
+                <Link to="https://mega.nz/file/hGF0jCpK#-BRtM0cAVuEF0ETtjXO4zYeFtrD-0cDcgtUwu6uqnBs" download="Tasnim_Anzum.pdf">
                     <button className="text-xl border-2 p-2 rounded-lg border-teal-600">
                         Resume
                     </button>

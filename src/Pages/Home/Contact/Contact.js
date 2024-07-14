@@ -18,32 +18,32 @@ const Contact = () => {
         <form action="https://formspree.io/f/xknaagdn" method="POST" onSubmit={handleSubmit}>
           <div className="flex flex-col lg:flex-row gap-24 text-xl">
             <div className="flex flex-col gap-4">
-              <h1 className="text-4xl font-bold text-slate-800 mb-8 mt-16">Contact Me </h1>
+              <h1 className="text-4xl font-bold text-teal-600 mb-8 mt-16">Contact Me </h1>
               <div className="flex justify-center lg:justify-start">
-                <AiOutlineMail className="text-3xl text-slate-800" />
+                <AiOutlineMail className="text-3xl text-white" />
               </div>
               <div className="flex justify-center lg:justify-start">
-                <h3 className="text-2xl uppercase font-medium">Email</h3>
+                <h3 className="text-2xl uppercase font-medium text-white">Email</h3>
               </div>
-              <p className="font-medium">tasnimanzum1234@gmail.com</p>
+              <p className="font-medium text-white">tasnimanzum1234@gmail.com</p>
             </div>
 
             <div className="flex flex-col gap-6">
               <div className="flex gap-6">
-                <BsFillSendFill className="text-3xl text-slate-800 " />
-                <h1 className="text-slate-800 text-4xl font-semibold">Drop me a line</h1>
-                <BsFillSendFill className="text-3xl text-slate-800 " />
+                <BsFillSendFill className="text-3xl text-teal-600 " />
+                <h1 className="text-teal-600 text-4xl font-semibold">Drop me a line</h1>
+                <BsFillSendFill className="text-3xl text-teal-600 " />
               </div>
-              <div className="flex flex-col gap-4 font-medium">
+              <div className="flex flex-col gap-4 font-medium text-white">
                 <label htmlFor="username">
                   Username
                 </label>
                 <div>
-                <input className="border-2 w-56 lg:w-96 rounded-lg"
-                  id="username"
-                  type="text"
-                  name="username"
-                />
+                  <input className="border-2 w-56 lg:w-96 rounded-lg"
+                    id="username"
+                    type="text"
+                    name="username"
+                  />
                 </div>
                 <ValidationError
                   prefix="Username"
@@ -51,16 +51,16 @@ const Contact = () => {
                   errors={state.errors}
                 />
               </div>
-              <div className="flex flex-col gap-4 font-medium">
+              <div className="flex flex-col gap-4 font-medium text-white">
                 <label htmlFor="email">
                   Email Address
                 </label>
                 <div>
-                <input className="border-2 w-56 lg:w-96 rounded-lg"
-                  id="email"
-                  type="email"
-                  name="email"
-                />
+                  <input className="border-2 w-56 lg:w-96 rounded-lg"
+                    id="email"
+                    type="email"
+                    name="email"
+                  />
                 </div>
                 <ValidationError
                   prefix="Email"
@@ -68,15 +68,15 @@ const Contact = () => {
                   errors={state.errors}
                 />
               </div>
-              <div className="flex flex-col gap-4 font-medium">
+              <div className="flex flex-col gap-4 font-medium text-white">
                 <label htmlFor="message">
                   Message
                 </label>
                 <div>
-                <textarea className="border-2 w-56 lg:w-96 rounded-lg"
-                  id="message"
-                  name="message"
-                />
+                  <textarea className="border-2 w-56 lg:w-96 rounded-lg"
+                    id="message"
+                    name="message"
+                  />
                 </div>
                 <ValidationError
                   prefix="Message"
@@ -85,7 +85,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <button className="btn border-slate-800 text-black hover:bg-cyan-950 hover:text-white hover:border-0" type="submit" disabled={state.submitting}>
+                <button className="btn border-slate-800 text-white hover:bg-teal-600 hover:text-black hover:border-0" type="submit" disabled={state.submitting}>
                   Send Message
                 </button>
               </div>

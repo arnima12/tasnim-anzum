@@ -34,21 +34,21 @@ const Skills = () => {
             <div>
                 <div className="container">
                     <div className="skill-horizontal-line skill-left-line  hidden lg:block"></div>
-                    <p className="content text-4xl text-slate-800 font-bold">My Skill Book</p>
+                    <p className="content text-4xl text-teal-600 font-bold">My Skill Book</p>
                     <div className="skill-horizontal-line skill-right-line  hidden lg:block"></div>
                 </div>
                 <div className="my-16 px-12">
                     <div className="mt-8">
                         <h2 className="text-3xl font-semibold text-white">Expertise</h2>
                         <div>
-                            <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4">
                                 {
                                     expertiseData.map((expertise) => <Expertise key={expertise._id} expertise={expertise} />)
                                 }
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <div className="grid  grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
                         <div className="mt-8">
                             <h2 className="text-3xl font-semibold text-white">Comfortable</h2>
                             <div className="flex gap-8 items-center justify-center">
@@ -68,7 +68,7 @@ const Skills = () => {
                     </div>
                     <div className="mt-8">
                         <h2 className="text-3xl font-semibold text-white">Tools</h2>
-                        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4 items-center place-items-center">
+                        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-4 items-center place-items-center">
                             {
                                 tools.map(tool => <Tool key={tool._id} tool={tool} />)
                             }

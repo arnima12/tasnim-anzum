@@ -6,6 +6,13 @@ AOS.init();
 const Experience = () => {
     const experience = [
         {
+            "_id": "646a759b91f2410596e9c025",
+            "name": "Nex Innova Tech",
+            "year": "May 2024 - Ongoing",
+            "position": "Intern Software Engineer",
+            "description": "Working on their product."
+        },
+        {
             "_id": "646a759b91f2410596e9c024",
             "name": "Sheba Web Technology LLC",
             "year": "June 2023 - July 2023",
@@ -25,7 +32,7 @@ const Experience = () => {
         <div className="container mx-auto px-4 sm:px-5 md:px-10 mt-16" id="experience">
             <div data-aos="fade-left">
                 <div>
-                    <h1 className="text-4xl text-slate-800 font-bold">Experience</h1>
+                    <h1 className="text-4xl text-teal-600 font-bold mb-8">Experience</h1>
                 </div>
                 <div>
                     {
