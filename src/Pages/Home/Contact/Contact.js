@@ -4,6 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillSendFill } from 'react-icons/bs';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './Contact.css';
 AOS.init();
 const Contact = () => {
   const [state, handleSubmit] = useForm("mlekavob");
@@ -85,7 +86,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <button className="btn border-slate-800 text-white hover:bg-teal-600 hover:text-black hover:border-0" type="submit" disabled={state.submitting}>
+                <button className="glow-btn btn border-2 p-2 rounded-lg border-teal-600 text-white hover:bg-teal-600 hover:text-black hover:border-0" type="submit" disabled={state.submitting}>
                   Send Message
                 </button>
               </div>

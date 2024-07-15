@@ -1,5 +1,6 @@
 import React from 'react';
 import 'animate.css';
+import './Company.css';
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 const Company = ({ company }) => {
   const { name, year, description } = company;

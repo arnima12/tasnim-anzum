@@ -1,0 +1,4 @@
+.divider:before,
+.divider:after {
+    background-color: rgb(255, 255, 255);
+}

@@ -1,11 +1,3 @@
-.navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.navbar li a:hover {
-    background-color: rgb(28, 68, 55);
-}
-
 .glow-btn {
     transition: box-shadow 0.3s ease-in-out;
 }
