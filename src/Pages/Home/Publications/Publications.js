@@ -12,7 +12,7 @@ Requirement Classification`,
             "link": "https://www.jait.us/articles/2024/JAIT-V15N8-914.pdf"
         }]
     return (
-        <div className="container mx-auto px-4 sm:px-5 md:px-10 mt-16" id="experience">
+        <div className="container mx-auto px-4 sm:px-5 md:px-10 mt-16" id="publications">
             <div data-aos="fade-left">
                 <div>
                     <h1 className="text-4xl text-teal-600 font-bold mb-8">Publications</h1>
