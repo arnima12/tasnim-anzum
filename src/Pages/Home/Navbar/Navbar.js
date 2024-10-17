@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end px-4">
-                <Link to="https://mega.nz/file/RS1glKDI#j9mLuguomlIJvLbeIUVcERqNVkmiS2He6rgu_sO1yPw" download="Tasnim_Anzum.pdf">
+                <Link to="https://mega.nz/file/5bNxmRRB#SR0uBatL9L8SpO_XZAJLVBiAbIjXQVQX1JDvTMrYdpc" download="Tasnim_Anzum.pdf">
                     <button className="glow-btn text-xl border-2 p-2 rounded-lg border-teal-600">
                         Resume
                     </button>

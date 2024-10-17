@@ -14,13 +14,6 @@
     "description": "This is a dynamic e-commerce website for car servicing tools."
   },
   {
-    "_id": "646b4e8269302e0e7d2aba68",
-    "name": "Shopping Site",
-    "img": "https://i.ibb.co/HxGDf5w/frayon.png",
-    "link": "https://frayon.netlify.app/",
-    "description": "Seamless shopping experience with integrated frontend and backend."
-  },
-  {
     "_id": "646b4e8269302e0e7d2aba69",
     "name": "Tic Tac Toe",
     "img": "https://i.ibb.co/NKXHHgj/tictac.png",
